@@ -36,3 +36,7 @@ Steps to build and start the system:
 
 # Activity 3
 Briefly summarize the differences between Docker and Virtual Machine:
+
+Virtual Machines provide more isolation for systems but require much more resources than Dockers. This is because each system needs to be allocated its own set of resources in order for them to be isolated from the OS and other systems.
+Docker containers run on the host operating system and share its resources. Therefore, docker containers do not require the allocation of a lot of resources. However, they provide less isolation for systems.
+You can run many Docker containers on a host and it won't be taxing like VMs would be. VMs take longer to start up than Docker containers.

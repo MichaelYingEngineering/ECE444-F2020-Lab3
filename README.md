@@ -1,5 +1,8 @@
 # ECE444-F2020-Lab4&5
 
+# Michael Ying
+Referenced from https://codefresh.io/docker-tutorial/hello-whale-getting-started-docker-flask/
+
 [ss1]: DockerfileLocation.PNG "Dockerfile Location"
 [ss2]: DockerBuildCommand.PNG "Docker Build"
 [ss3]: DockerRunCommand.PNG "Docker Run"

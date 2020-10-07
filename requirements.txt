@@ -1,0 +1,8 @@
+flask==1.1.2
+flask_bootstrap
+flask_moment
+datetime
+flask_wtf
+wtforms
+wtforms.validators
+email_validator

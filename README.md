@@ -1,30 +1,35 @@
-# ECE444-F2020-Lab3
+# ECE444-F2020-Lab4&5
 
-# Michael Ying
-
-This repo is a clone of https://github.com/miguelgrinberg/flasky
-
-[screenshot1]: Activity1.PNG "Activity 1 screenshot"
-[screenshot2]: Activity2-1.PNG "Activity 2-1 screenshot"
-[screenshot3]: Activity2-2.PNG "Activity 2-2 screenshot"
-[screenshot4]: Activity2-3.PNG "Activity 2-3 screenshot"
-[screenshot5]: Activity2-4.PNG "Activity 2-4 screenshot"
+[ss1]: DockerfileLocation.PNG "Dockerfile Location"
+[ss2]: DockerBuildCommand.PNG "Docker Build"
+[ss3]: DockerRunCommand.PNG "Docker Run"
+[ss4]: DockerImage.PNG "Docker Image"
+[ss5]: DockerContainer.PNG "Docker Container"
+[ss6]: Browser.PNG "Browser"
 
 # Activity 1
-![alt text][screenshot1]
-
+Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 task GitHub repository (you are experimenting after all).
 # Activity 2
-![alt text][screenshot2]
-![alt text][screenshot3]
-![alt text][screenshot4]
-![alt text][screenshot5]
+Steps to build and start the system:
+1. Clone this git repo and go to its location. The Dockerfile can be found there.
+![alt text][ss1]
+2. Run the command **docker build -t ece444-f2020-lab3 .** to build image
+![alt text][ss2]
+3. Run the container using command **docker run -d -p 5000:5000 ece444-f2020-lab3**
+![alt text][ss3]
+
+- Screenshot of browser
+![alt text][ss6]
+- Docker image and container
+![alt text][ss4]
+![alt text][ss5]
+
+**Miscellaneous Commands**:
+- **docker image ls** - List images
+- **docker ps -a** - List containers
+- **docker image rm (ID)** - Remove images
+- **docker container stop (ID)** - Stop containers
+- **docker container rm (ID)** - Remove containers
 
 # Activity 3
--Briefly summarize the difference between SQL and NoSQL databases
-
-SQL databases are based on the relational data model.
-Tables are linked with other tables to form useful relationships between them. This is done by tables having columns referencing the primary key of rows of other tables (or the same table).
-Duplication of data is avoided, but tables need to be joined to present relational data.
-
-NoSQL databases do not follow the relational data model. NoSQL uses collections instead of tables and documents instead of records. There is no join operation.
-Data is duplicated but the number of tables is reduced and querying speed is increased.
+Briefly summarize the differences between Docker and Virtual Machine:

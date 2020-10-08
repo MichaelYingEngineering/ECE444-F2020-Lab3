@@ -2,6 +2,7 @@
 
 # Michael Ying
 Referenced from https://codefresh.io/docker-tutorial/hello-whale-getting-started-docker-flask/
+Docker can be installed from https://docs.docker.com/get-started/
 
 [ss1]: DockerfileLocation.PNG "Dockerfile Location"
 [ss2]: DockerBuildCommand.PNG "Docker Build"
@@ -11,10 +12,10 @@ Referenced from https://codefresh.io/docker-tutorial/hello-whale-getting-started
 [ss6]: Browser.PNG "Browser"
 
 # Activity 1
-Perform all development in a branch "lab4_Microservice_Experiment" in your Lab3 task GitHub repository (you are experimenting after all).
+Completed the tasks
 # Activity 2
 Steps to build and start the system:
-1. Clone this git repo and go to its location. The Dockerfile can be found there.
+1. Clone this git repo and go to its location. The Dockerfile can be found in repo's root directory.
 ![alt text][ss1]
 2. Run the command **docker build -t ece444-f2020-lab3 .** to build image
 ![alt text][ss2]
